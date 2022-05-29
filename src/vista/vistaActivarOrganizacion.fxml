@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #57d349;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.VistaActivarOrganizacionController">
+   <children>
+      <Text fill="WHITE" layoutX="127.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Activar/ Desactivar Organización">
+         <font>
+            <Font name="Book Antiqua" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="146.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introducir Codigo de Organización">
+         <font>
+            <Font name="Calibri Light" size="21.0" />
+         </font>
+      </Text>
+      <TextField layoutX="156.0" layoutY="157.0" prefHeight="43.0" prefWidth="250.0" />
+      <Button fx:id="op1c1" layoutX="156.0" layoutY="216.0" mnemonicParsing="false" onAction="#clickActivar" text="Activar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="op1c2" layoutX="281.0" layoutY="216.0" mnemonicParsing="false" onAction="#clickDesactivar" text="Desactivar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="op1cGuardar" layoutX="240.0" layoutY="320.0" mnemonicParsing="false" onAction="#clickGuardar" text="Guardar" />
+   </children>
+</AnchorPane>

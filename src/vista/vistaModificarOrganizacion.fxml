@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f1f423;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaModificarOrganizacionController">
+   <children>
+      <Text fill="#070606" layoutX="178.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modificar Organización">
+         <font>
+            <Font name="Book Antiqua" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#1e1d1d" layoutX="140.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del nuevo Usuario Administrador">
+         <font>
+            <Font name="Calibri Light" size="19.0" />
+         </font>
+      </Text>
+      <Button fx:id="op1b1" layoutX="253.0" layoutY="288.0" mnemonicParsing="false" onAction="#clickGuardar" text="Guardar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="93.0" layoutY="179.0" prefHeight="42.0" prefWidth="400.0" />
+   </children>
+</AnchorPane>

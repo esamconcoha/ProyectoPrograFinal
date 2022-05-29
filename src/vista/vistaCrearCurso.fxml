@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eab352;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.VistaCrearCursoController">
+   <children>
+      <Text fill="#2c2a28" layoutX="237.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crear Recurso">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="65.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codigo del curso" />
+      <Text layoutX="61.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del curso" />
+      <Text layoutX="61.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Requiere aprobación" />
+      <Text layoutX="61.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Requiere Confirmación" />
+      <Text layoutX="59.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tiempo maximo de uso" />
+      <Text layoutX="61.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Costo" />
+      <TextField layoutX="224.0" layoutY="70.0" />
+      <TextField layoutX="224.0" layoutY="122.0" />
+      <TextField layoutX="224.0" layoutY="263.0" />
+      <TextField layoutX="224.0" layoutY="316.0" />
+      <CheckBox layoutX="224.0" layoutY="179.0" mnemonicParsing="false" />
+      <CheckBox layoutX="224.0" layoutY="221.0" mnemonicParsing="false" />
+      <Button fx:id="op3a1" layoutX="462.0" layoutY="189.0" mnemonicParsing="false" onAction="#clickGuardar" text="Guardar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

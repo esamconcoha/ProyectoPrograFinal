@@ -1,0 +1,64 @@
+//importación de paquetes
+
+package controlador;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
+
+
+public class VistaActivarRecursoController implements Initializable {
+
+    // ID de los botones que existen el en fxml
+    @FXML
+    private Button oop3c1;
+
+    /**
+     * Initializes the controller class.
+     */
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }    
+    
+    
+     //se crea este metodo para la funcionalidad de cerrar una ventana y regresar al menú anterior, esto se enlaza con el menú al que se enlazó este archivo
+      public void closeWindows(){
+         try {
+            FXMLLoader loader = new FXMLLoader (getClass().getResource("/vista/vistaRecursos.fxml"));//se obtiene el controlador del menú al que se enlazó la ventana
+            Parent root =loader.load();
+            
+           VistaRecursosController controlador = loader.getController();//se obtiene el controlador del menú al que se enlazó el archivo
+            
+           Scene scene = new Scene(root);//creación de escena
+           Stage stage = new Stage();//creación de stage
+           stage.setScene(scene);
+           stage.show();
+           Stage myStage = (Stage) this.oop3c1.getScene().getWindow();//no se coloca close window ya que no es necesario
+           myStage.close();
+           
+            
+           
+        } catch (IOException ex) {
+            Logger.getLogger(VistaRecursosController.class.getName()).log(Level.SEVERE, null, ex);
+        }   
+        
+    }
+      
+      //Creacion de metodos que contienen las acciones de los botones
+
+    @FXML
+    private void clickGuardar(ActionEvent event) {
+    }
+    
+}

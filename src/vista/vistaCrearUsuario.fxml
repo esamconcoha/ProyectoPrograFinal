@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6eddb4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.VistaCrearUsuarioController">
+   <children>
+      <Text layoutX="212.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crear Usuario">
+         <font>
+            <Font name="Book Antiqua" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo de usuario" />
+      <TextField layoutX="212.0" layoutY="85.0" />
+      <Text layoutX="70.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de usuario" />
+      <TextField layoutX="212.0" layoutY="136.0" />
+      <Text layoutX="70.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codigo Usuario" />
+      <TextField layoutX="212.0" layoutY="185.0" />
+      <Text layoutX="76.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña" />
+      <TextField layoutX="212.0" layoutY="231.0" />
+      <Text layoutX="76.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono" />
+      <TextField layoutX="212.0" layoutY="280.0" />
+      <Text layoutX="76.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dirección" />
+      <TextField layoutX="212.0" layoutY="323.0" />
+      <Button fx:id="op2a1" layoutX="467.0" layoutY="196.0" mnemonicParsing="false" onAction="#clickGuardar" text="Guardar" />
+   </children>
+</AnchorPane>

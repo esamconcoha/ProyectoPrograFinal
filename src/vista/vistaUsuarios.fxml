@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="textGestion" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fb8756; Parent root =loader.load(): ; MenuprincipalController controlador = loader.getController(): ; Scene scene = new Scene(root): ; Stage stage = new Stage(): ; stage.setScene(scene): ; stage.show(): ; Stage myStage = (Stage) this.op1Cancelar.getScene().getWindow(): ; myStage.close(): ; } catch (IOException ex) {            Logger.getLogger(MenuprincipalController.class.getName()).log(Level.SEVERE, null, ex): ; }               }public void closeWindows(){         try {            FXMLLoader loader = new FXMLLoader (getClass().getResource(&quot;/vista/Menuprincipal.fxml&quot;)): ; Parent root =loader.load(): ; MenuprincipalController controlador = loader.getController(): ; Scene scene = new Scene(root): ; Stage stage = new Stage(): ; stage.setScene(scene): ; stage.show(): ; Stage myStage = (Stage) this.op1Cancelar.getScene().getWindow(): ; myStage.close(): ;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaUsuariosController">
+   <children>
+      <Text layoutX="258.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="188.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestión de Usuarios">
+         <font>
+            <Font name="Bodoni MT" size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="op2a" layoutX="227.0" layoutY="101.0" mnemonicParsing="false" onAction="#clickCrear" text="Crear Usuario" textFill="#282524">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="op2b" layoutX="213.0" layoutY="169.0" mnemonicParsing="false" onAction="#clickModificar" text="Modificar Usuario">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="op2c" layoutX="214.0" layoutY="240.0" mnemonicParsing="false" onAction="#clickInactivar" text="Inactivar usuario">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="opCancelar" layoutX="260.0" layoutY="321.0" mnemonicParsing="false" onAction="#clickCancelar" text="Cancelar">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f84a4a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaRecursosController">
+   <children>
+      <Text layoutX="197.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestión de Recursos">
+         <font>
+            <Font name="Book Antiqua" size="23.0" />
+         </font></Text>
+      <Button fx:id="op3a" layoutX="231.0" layoutY="97.0" mnemonicParsing="false" onAction="#ClickCrear" text="Crear recurso" textFill="#433a3a">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="op3b" layoutX="210.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickActualizar" text="Actualizar recurso">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="op3c" layoutX="179.0" layoutY="227.0" mnemonicParsing="false" onAction="#clickInactivar" text="Inactivar/Activar recurso">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="op3Cancelar" layoutX="262.0" layoutY="307.0" mnemonicParsing="false" onAction="#clickCancelar" text="Cancelar" />
+   </children>
+</AnchorPane>

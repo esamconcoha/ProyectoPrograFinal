@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7cf71;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.VistaReservarRecursoController">
+   <children>
+      <Text fill="#2f2e2c" layoutX="223.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reservar Recurso">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="65.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El curso necesita aprobación" />
+      <Text layoutX="63.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de actividad" />
+      <Text layoutX="63.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descripción de actividad" />
+      <Text layoutX="67.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha" />
+      <Text layoutX="67.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hora de inicio" />
+      <Text layoutX="67.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hora de finalización" />
+      <CheckBox layoutX="263.0" layoutY="103.0" mnemonicParsing="false" />
+      <TextField layoutX="263.0" layoutY="138.0" />
+      <TextField layoutX="263.0" layoutY="174.0" />
+      <DatePicker layoutX="248.0" layoutY="212.0" />
+      <TextField layoutX="263.0" layoutY="254.0" />
+      <TextField layoutX="264.0" layoutY="293.0" />
+      <Button fx:id="op4a1" layoutX="321.0" layoutY="348.0" mnemonicParsing="false" onAction="#ClickGuardar" text="Guardar" />
+   </children>
+</AnchorPane>

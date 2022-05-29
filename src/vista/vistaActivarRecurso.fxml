@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #acc977;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.VistaActivarRecursoController">
+   <children>
+      <Text fill="#0a0a0a" layoutX="167.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Activar/ Desactivar Recurso">
+         <font>
+            <Font name="Book Antiqua" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="65.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrese codigo de Recurso" />
+      <TextField layoutX="255.0" layoutY="111.0" />
+      <Button layoutX="241.0" layoutY="158.0" mnemonicParsing="false" text="Activar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="357.0" layoutY="158.0" mnemonicParsing="false" text="Desactivar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="oop3c1" layoutX="250.0" layoutY="286.0" mnemonicParsing="false" onAction="#clickGuardar" text="Guardar">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
